@@ -26,6 +26,8 @@ body {
 .topmenu:hover {
   color: white;
   /* Add the styles here */
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .topdiv {
@@ -37,6 +39,8 @@ body {
   float: left;
   padding-left: 2cm;
   /* Add the styles here */
+  color:lightgreen;
+  font-size: 37px
 }
 
 .profile_name .contact_info {
@@ -116,6 +120,7 @@ h2 {
   display: flex;
   flex-direction: row;
   flex-flow: wrap;
+
 }
 
 .skill {
@@ -168,16 +173,25 @@ h2 {
   border: 1px solid lightgray;
   width: 75%;
   margin-left: 5cm;
+    font-family:Tahoma;
+  font-weight: bolder;
+  color: lightgreen;
 }
 
 .project-card {
   margin: 0 15px 15px 30px;
   padding-bottom: 5px;
+    font-family:Tahoma;
+  font-weight: bolder;
+  color: lightgreen;
 }
 
 .project-card h3 {
   font-size: 25px;
   margin-left: 30px;
+  font-family:Tahoma;
+  font-weight: bolder;
+  color: lightgreen;
 }
 
 .project-card li {
@@ -201,12 +215,12 @@ h2 {
   text-align: left;
   width: 21.875rem;
   padding: 1rem;
-  background-color: #fff;
+  background-color: #c7c0c0;
   border-radius: 11px;
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
-  border:1px solid gray;
+  border:5px solid gray;
   font-size: 18px;
   height:150px
 }
