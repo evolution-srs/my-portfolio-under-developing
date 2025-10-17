@@ -21,6 +21,7 @@ body {
   padding: 20px;
   font-size: 20px;
   text-decoration:underline;
+  text-underline-offset: 0.5em;
 }
 
 .topmenu:hover {
@@ -89,6 +90,13 @@ h2 {
 }
 
 /* About Me */
+
+.profile_image {
+  width: 299;
+  height: auto
+
+  
+}
 
 .about-me {
   display: flex;
@@ -294,7 +302,7 @@ h2 {
 /* Recommendation Form */
 
 input, textarea {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family: 'Trebuchet MS';
   margin: 10px;  
   width:100%;
 }
